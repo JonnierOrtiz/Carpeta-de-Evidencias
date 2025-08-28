@@ -1,0 +1,122 @@
+body.dark-mode aside,
+body.dark-mode aside h2,
+body.dark-mode aside ul,
+body.dark-mode aside li {
+  color: #fdfdfd !important;
+}
+main {
+  padding-bottom: 80px;
+}
+footer {
+  padding: 1.5rem;
+  background-color: var(--color-primario);
+  color: #fff;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+body.dark-mode footer {
+  background-color: #232526;
+  color: #fff !important;
+}
+body {
+  background: linear-gradient(135deg, #ecf0f1 0%, #e0eafc 100%);
+  transition: background 0.5s;
+}
+
+body.dark-mode {
+  background: linear-gradient(135deg, #232526 0%, #414345 100%);
+  color: #fdfdfd;
+}
+
+.wave-bg {
+  position: fixed;
+  left: 0; right: 0; top: 0; bottom: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* Máquina de escribir */
+.typewriter {
+  display: inline-block;
+  border-right: 2px solid #099e15;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: blink-caret 0.7s step-end infinite;
+}
+@keyframes blink-caret {
+  0%, 100% { border-color: #099e15; }
+  50% { border-color: transparent; }
+}
+
+/* Animaciones de entrada */
+.reveal.fade {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.7s, transform 0.7s;
+}
+.reveal.fade.visible {
+  opacity: 1;
+  transform: none;
+}
+.reveal.zoom {
+  opacity: 0;
+  transform: scale(0.8);
+  transition: opacity 0.7s, transform 0.7s;
+}
+.reveal.zoom.visible {
+  opacity: 1;
+  transform: scale(1);
+}
+.reveal.rotate {
+  opacity: 0;
+  transform: rotate(-8deg);
+  transition: opacity 0.7s, transform 0.7s;
+}
+.reveal.rotate.visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* Switch modo oscuro */
+.switch {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.switch input[type="checkbox"] {
+  width: 40px;
+  height: 20px;
+  appearance: none;
+  background: #e0e0e0;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.switch input[type="checkbox"]:checked {
+  background: #099e15;
+}
+.switch label {
+  color: #099e15;
+  font-weight: bold;
+}
+
+/* Botón PDF */
+#download-pdf {
+  background: #099e15;
+  color: #fff;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background 0.3s;
+}
+#download-pdf:hover {
+  background: #077c11;
+}
