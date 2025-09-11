@@ -1,0 +1,179 @@
+/* Título de la galería en blanco */
+.product-gallery h2 {
+    color: #fff;
+}
+/* Nuestra Historia en blanco */
+.about-us-section h3,
+.about-us-section p {
+    color: #fff;
+}
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://www.transparenttextures.com/patterns/stardust.png');
+    background-color: #000000;
+    color: #025c27;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+/* Header */
+header {
+    background-color: #099c04;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main Content Layout (index.html) */
+main.container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sidebar {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero, .about-us-hero, .contact-hero {
+    background: linear-gradient(to bottom, rgba(43, 255, 0, 0.5), rgba(0, 0, 0, 0.5)), url('');
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hero-content h2, .about-us-hero h2, .contact-hero h2 {
+    font-size: 2.5rem;
+    margin-top: 0;
+}
+
+.cta-button {
+    background-color: #128a03;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+/* Product Grid */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.product-grid-3x3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.product-card {
+    background: #8a8a8a;
+    border: 1px solid #15ff00;
+    padding: 20px;
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Why Choose Us (Sidebar) */
+.why-choose-us ul {
+    list-style: none;
+    padding: 0;
+}
+
+.why-choose-us li {
+    padding: 10px 0;
+}
+
+/* About Us Page */
+.about-us-content {
+    padding: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.about-us-section {
+    margin-bottom: 30px;
+}
+
+.mission-vision {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+/* Contact Page */
+.contact-content-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box; /* Fixes width issue */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #085f00;
+    color: #fff;
+}
