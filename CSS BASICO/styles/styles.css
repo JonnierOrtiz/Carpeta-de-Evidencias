@@ -1,0 +1,138 @@
+body {
+    background-color: greenyellow;
+    font-family : Georgia, 'Times New Roman', Times, serif;
+    margin: 40px;
+    }
+
+h1 {
+    color: white;
+    
+    }
+
+p {
+    color:greenyellow
+}
+
+div.container {
+    background-color: rgb(31, 31, 31);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 4px;
+    
+    }
+
+div.highlight {
+    background-color: rgb(68, 68, 68);
+    padding: 20px;
+    border-radius: 10px;
+    }
+
+section.hero {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 4px;
+    }
+
+footer {
+    background-color: rgb(31, 31, 31);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 4px;
+    text-align: center;
+    color: white;
+    }
+
+section.content {
+    background-color: rgb(68, 68, 68);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 4px;
+    color: white;
+    text-align: center;
+ 
+    
+    }
+
+img.content-image {
+    width: 100%;
+    height: auto;
+    border-radius: 900px;
+    }
+
+section.navbar {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 4px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    }
+
+
+ul.nav-links {
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    }
+
+ul.nav-links li a {
+    color: greenyellow;
+    text-decoration: none;
+}
+
+ul.nav-links li a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+a.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+section.contacto {
+    background-color: rgb(31, 31, 31);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 4px;
+    color: white;
+    text-align: center;
+    }
+form.contacto-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form.contacto-form label {
+    margin: 10px 0 5px;
+}
+
+form.contact-form input,
+form.contact-form textarea {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+form.contacto-form button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: greenyellow;
+    color: white;
+    cursor: pointer;
+}
+
+form.contact-form button:hover {
+    background-color: white;
+    color: greenyellow;
+}
