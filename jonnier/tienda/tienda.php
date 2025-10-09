@@ -17,9 +17,10 @@ include('includes/header.php')
             <form action="compra.php" method="POST">
                 <input type="hidden" name="producto" value="xtz125">
                 <input type="number" name="cantidad" min="1" value="1">
-                <button type="submit" class="bnt">Comprar</button>
+                <button type="submit" class="btn">Comprar</button>
             </form>
-
+            </div>
+            
             <div class="card">
                 <img src="img/xtz150.png" alt="xtz150">
                 <h3>XTZ 150</h3>
@@ -27,7 +28,7 @@ include('includes/header.php')
                 <form action="compra.php" method="POST">
                     <input type="hidden" name="producto" value="xtz150">
                     <input type="number" name="cantidad" min="1" value="1">
-                    <button class="bnt">Comprar<button>
+                    <button class="btn">Comprar<button>
                 </form>
             </div>
         </div>
